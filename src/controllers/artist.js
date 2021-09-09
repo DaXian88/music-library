@@ -10,5 +10,5 @@ exports.create = async (req, res) => {
         res.sendStatus(500).json(err);
     }
 
-    db.close()
+    db.close();
 };
